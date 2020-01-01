@@ -1,15 +1,14 @@
-comments:
-  allowedFields: ["message", "name", "url", "website,"]
-  branch: "master"
-  commitMessage: "Add comment from Staticman"
-  filename: "{fields.url}-{@timestamp}"
-  format: "yaml"
-  moderation: true
-  name: "Pelican Editorial"
-  path: "content/comments"
-  requiredFields: ["message", "name", "url"]
-  generatedFields:
-    date:
-      type: date
-      options:
-        format: "timestamp-seconds"
+allowedFields: ["message", "name", "url", "website,"]
+branch: "master"
+commitMessage: "Add comment from Staticman"
+filename: "{fields.url}-{@timestamp}"
+format: "yaml"
+moderation: true
+name: "Pelican Editorial"
+path: "content/comments"
+requiredFields: ["message", "name", "url"]
+generatedFields:
+  date:
+    type: date
+    options:
+      format: "timestamp-seconds"
