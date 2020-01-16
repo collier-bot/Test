@@ -12,4 +12,4 @@ comments:
     date:
       type: date
       options:
-        format: "timestamp-seconds"
+        format: "iso8601"
